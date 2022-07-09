@@ -1,15 +1,31 @@
-* { margin : 0px ;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-div { padding: 5px ; border : 1px solid rgb(229, 16, 215) ;
- }
+body {
+  background-color: #cb8889;
+}
 
-div.column { float : left; height: 500px ; }
-div.side { width : 15% ; }
-div.main { width : 70% ; }
-div.footer { clear : both ; }
+div {
+  padding: 5px;
+  border: 1px solid rgb(126, 3, 118);
+}
+
+div.column {
+  float: left;
+  height: 500px;
+}
+div.side {
+  width: 15%;
+}
+div.main {
+  width: 70%;
+}
+div.footer {
+  clear: both;
+}
 img {
-    height: 80%;
-    width: 40%;
+  height: 80%;
+  width: 40%;
 }
